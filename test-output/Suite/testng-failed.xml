@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="TSSPasswort" value="bremen13"/>
+  <parameter name="QNummer" value="QXV5565"/>
+  <parameter name="URL2" value="https://icorebanking.bmwgroup.net/mbsgui/start.do"/>
+  <parameter name="URL" value="https://i-tfw.bmwgroup.net/"/>
+  <listeners>
+    <listener class-name="TFW_Test.Listeners"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="TFW_Test.Reporting">
+        <methods>
+          <include name="teardown"/>
+          <include name="Reporting" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TFW_Test.Reporting -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

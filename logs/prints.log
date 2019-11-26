@@ -1,0 +1,9 @@
+
+09:58:39.637 [main] INFO  resources.Base - Webdriverul initializat
+09:58:48.647 [main] INFO  resources.Base - Accesat OLX.ro
+09:58:52.120 [main] INFO  resources.Base - Accesat <Contul Meu>
+09:58:54.926 [main] INFO  resources.Base - Accesata logarea cu Facebook
+09:58:57.587 [main] INFO  resources.Base - Webdriverul initializat
+09:59:05.606 [main] INFO  resources.Base - Accesat OLX.ro
+09:59:06.490 [main] INFO  resources.Base - Introdus un model de masina si apasat pe <Cautare>
+09:59:06.491 [main] INFO  resources.Base - Sunt afisate rezultatele cautarii dupa un model de masina

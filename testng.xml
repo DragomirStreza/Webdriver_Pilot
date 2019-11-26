@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ <parameter name="URL" value="https://www.olx.ro/"/>
+ 
+  <parameter name="QNummer" value="QXV5565"/>
+  
+  <parameter name="TSSPasswort" value="bremen13"/>
+
+<parameter name="URL2" value="https://icorebanking.bmwgroup.net/mbsgui/start.do"/>
+
+
+<listeners>
+<listener class-name="TFW_Test.Listeners"/>
+<listener class-name="resources.ExtentReporterNG"/>
+</listeners>
+
+  <test thread-count="5" name="TFW_Test.Login_TFW">
+ 
+      <classes>
+      <class name="TFW_Test.Login_TFW"/>
+      </classes>
+      </test>
+     
+      <test thread-count="5" name="TFW_Test.Reporting">
+     
+      <classes>
+     <class name="TFW_Test.Reporting"/>
+     </classes>
+      </test>
+      
+      <test thread-count="5" name="TFW_Test.Display_Importeurs">
+    
+      <classes>
+     <class name="TFW_Test.Display_Importeurs"/>
+    </classes>
+    </test>
+    
+     <test thread-count="5" name="TFW_Test.TFW_Historie">
+    
+      <classes>
+     <class name="TFW_Test.TFW_Historie"/>
+    </classes>
+    </test>
+
+</suite> <!-- Suite -->
